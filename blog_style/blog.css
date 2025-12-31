@@ -16,3 +16,27 @@ footer{
 section{
     margin-right: 30%;
 }
+tfoot{
+    text-align: center;
+}
+nav> ul> li{
+    display:inline;
+    margin: 30px;
+    text-decoration: none;
+}
+nav li a{
+   text-decoration: none;
+}
+nav li {
+   list-style:none;
+}
+nav li .hide{
+    display: none;
+    position: absolute;
+    background-color: rgb(138, 138, 150);
+    padding-left: 10px;
+}
+nav li:hover .hide{
+  display:block;
+  padding-left: 5px;
+}

@@ -3,17 +3,86 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>A table</title>
+    <link rel="stylesheet" href="blog_style/blog.css">
+    <style>
+        td,th{
+            border: 2px solid black;
+        }
+        table{
+            border-collapse: collapse;
+        }
+        nav li:hover{
+            background-color: rgb(152, 148, 144);
+        }
+    </style>
 </head>
 <body>
     <header>
-
+    <nav>
+        <ul>
+            <li><a href="form.html">Form</a></li>
+            <li><a href="index.html">Index</a></li>
+            <li>
+                <a href="blog.html">Blog</a>
+               <ul class="hide">
+                   <li><a href="form.html">Form</a></li>
+                   <li><a href="index.html">Index</a></li>
+                   <li><a href="blog.html">Blog</a></li>
+                   <li>Details</li>
+               </ul></li>
+            <li>Details</li>
+        </ul>
+    </nav> 
+<h3>
+    addarsus saalis
+</h3>
     </header>
     <main>
-
+     <table>
+        <thead>
+<tr>
+    <th>arabic or questions</th>
+    <th>bangla or answer</th>
+    <th>Arabic or questions</th>
+    <th>Bangla or answer</th>
+</tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>ana tilmijun</td>
+            <td>ami ekjon satro</td>
+            <td>ana tilmijatun</td>  
+            <td>ami ekjon satri</td>
+          </tr>
+          <tr>
+            <td>hal anta muallimun</td>
+            <td>tumi ki ekjon shikkhok</td>
+            <td>hal anta muallimatun</td>
+            <td>tumi ki ekjon shikkhika</td>
+          </tr>
+          <tr>
+            <td>howa waladun muaddabun</td>
+            <td>she ekjon shobvo balok</td>
+            <td>hiya bintun muaddabatun</td>
+            <td>she ekjon shobvo balika</td>
+          </tr>
+          <tr>
+            <td>hal anti muaddabatun</td>
+            <td>la bal ana tilmijatun</td>
+            <td>hal howa muallimun</td>
+            <td>la bal howa tilmijun</td>
+          </tr>
+        </tbody>
+        <tfoot>
+<tr>
+        <td colspan="4">haja hijaun wasikhun</td>
+    </tr>
+        </tfoot>
+     </table>
     </main>
     <footer>
-        
+    
     </footer>
 </body>
 </html>
